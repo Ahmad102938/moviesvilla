@@ -114,12 +114,15 @@ header .search-box {
 header ul {
     flex: 2;
     display: flex;
+    /* padding-top: 15px; */
+    gap: 5px;
     justify-content: space-evenly;
 }
 
 header ul li {
     list-style: none;
     font-size: 18px;
+    border-radius: 15px;
 }
 
 header ul li a {
@@ -131,7 +134,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: aquamarine;
+    color: #000;
+    background: #f6f4f4ba;
     /* border-bottom: 2px solid cadetblue; */
     /* transform: translateX(4); */
 }
@@ -606,6 +610,9 @@ h3 {
     }
     .nevig a {
         margin-right: 5px;
+    }
+    header .logo h1 {
+        font-size: 25px;
     }
 }
 
