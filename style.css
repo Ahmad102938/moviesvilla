@@ -344,7 +344,7 @@ header .menu {
 }
 
 .card_info {
-    padding: 15px;
+    padding: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
