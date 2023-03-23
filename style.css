@@ -237,7 +237,7 @@ header .menu {
 }
 
 
-/* -------------------------------------FINAL NEVIGATION---------------------------------------------------------- */
+/* ------FINAL NEVIGATION---------------------------------------------------------- */
 
 .category {
     text-decoration: none;
@@ -453,13 +453,168 @@ header .menu {
     margin: 0 auto;
     margin-top: 0;
     width: 100%;
-    /* height: 75px; */
-    background: rgb(33, 33, 57);
+    background: rgb(6, 6, 13);
     font-family: sans-serif;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 14px 14px 0px 0px
+}
+
+.web-discp h1,
+h3 {
+    color: #fff;
 }
 
 .f-container {
+    margin: 15px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.web-discp {
+    max-width: 800px;
+    display: grid;
+}
+
+.web-links {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links,
+.web,
+.nevig {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.links a,
+.web a,
+.nevig a {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    opacity: 0.5;
+    padding-bottom: 5px;
+}
+
+.nevig a:hover {
+    opacity: 1;
+}
+
+.web a:hover {
+    opacity: 1;
+}
+
+.links a:hover {
+    opacity: 1;
+}
+
+.web-discp p {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.social,
+.social1 {
+    color: #fff;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+.social1 {
+    padding-bottom: 10px;
+}
+
+.social i {
+    padding-right: 10px;
+    color: #317fc3;
+}
+
+.social1 i {
+    padding-right: 10px;
+    color: #da8b15;
+}
+
+.social1 i:hover {
+    opacity: 1;
+    color: rgb(232, 88, 11);
+    cursor: pointer;
+}
+
+.social i:hover {
+    opacity: 1;
+    color: rgb(1, 33, 115);
+    cursor: pointer;
+}
+
+
+/* -----------responsive */
+
+@media(max-width:950px) {
+    .web-links h3 {
+        text-align: center;
+    }
+    .footer {
+        width: 100%;
+    }
+    .f-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* object-fit: cover; */
+        /* max-width: 100%; */
+    }
+    .web-discp {
+        padding-bottom: 20px;
+    }
+    .web-links {
+        padding-left: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .web-links .nevig {
+        display: flex;
+        /* flex-direction: row; */
+    }
+    .head {
+        justify-content: center;
+    }
+    .links,
+    .web,
+    .nevig {
+        padding-right: 0;
+    }
+}
+
+@media(max-width:393px) {
+    .web-links .nevig {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nevig a {
+        margin-right: 5px;
+    }
+}
+
+
+/* ------------responsive */
+
+
+/* .links a {
+    
+} */
+
+
+/* .f-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -483,7 +638,7 @@ header .menu {
 
 .f-items a:hover {
     opacity: 0.5;
-}
+} */
 
 
 /* ------------------------------FOOTER--------------------------- */
