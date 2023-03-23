@@ -85,13 +85,17 @@ header .search-box {
     display: flex;
     align-items: center;
     padding: 0 25px;
+    border-radius: 15px;
     /* transition: 0.5s ease-in-out; */
 }
 
 .searchbox input {
     width: 100%;
     height: 40px;
+    text-decoration: none;
     font-size: 1.15rem;
+    text-align: center;
+    border-radius: 34px 34px 34px 34px;
     background: #13102c;
     color: #fff;
 }
@@ -663,6 +667,10 @@ h3 {
     .search-box ion-icon {
         background: #fff;
         color: #13102c;
+        transform: scale(0.7);
+    }
+    header .menu {
+        transform: scale(0.7);
     }
     /* .search-box  ion-icon {
         color: #000;
