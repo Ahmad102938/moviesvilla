@@ -675,4 +675,7 @@ h3 {
         visibility: visible;
         /* transition: 0.3s; */
     }
+    .card_image {
+        opacity: 1;
+    }
 }
